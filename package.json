@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +22,10 @@
   "homepage": "https://github.com/Finagoth/clone_displayplus#readme",
   "devDependencies": {
     "gulp": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^6.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
     "sass": "^1.92.1"
   },
   "dependencies": {
